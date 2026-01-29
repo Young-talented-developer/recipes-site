@@ -1,0 +1,55 @@
+.login-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(60, 60, 60, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.login-modal {
+  background: #f7f4ef;
+  padding: 28px 32px;
+  width: 360px;
+  border-radius: 14px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-modal h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #3e3a36;
+}
+
+.login-modal input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #c9c3bb;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.login-buttons button {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-buttons button[type="submit"] {
+  background: #df9b52;
+  font-weight: 600;
+}
+
+.login-buttons button[type="button"] {
+  background: transparent;
+  color: #666;
+}
